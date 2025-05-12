@@ -1,4 +1,4 @@
-public class Planet extends HeavenlyBodies implements Habitable{
+public class Planet extends HeavenlyBodies implements Habitable {
     private final int moonsNumber;
     private final boolean atmosphere;
 

@@ -13,11 +13,11 @@ public class Moon extends HeavenlyBodies implements Habitable {
     }
 
     @Override
-    public void BodiesDescription(){
-        if(!rockySurface) {
-            System.out.println("The " + getName() + " orbits the " + orbitalPlanet + ". Its surface isn't  rocky and its diameter is "+getDiameter()+" km.");
+    public void BodiesDescription() {
+        if (!rockySurface) {
+            System.out.println("The " + getName() + " orbits the " + orbitalPlanet + ". Its surface isn't  rocky and its diameter is " + getDiameter() + " km.");
         }
-        System.out.println("The " + getName() + " orbits the " + orbitalPlanet + ". Its surface is rocky and its diameter is "+getDiameter()+" km.");
+        System.out.println("The " + getName() + " orbits the " + orbitalPlanet + ". Its surface is rocky and its diameter is " + getDiameter() + " km.");
     }
 
     @Override
